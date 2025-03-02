@@ -1,5 +1,5 @@
 ## Description
-The Real-Estate-Website is a modern, responsive platform designed to showcase property listings, including apartments and lands, with detailed information such as size, price, and descriptions ... etc. Built with HTML, CSS, and React, MySQL, Tailwind CSS ,HeroUi.
+The Real-Estate-Website is a modern, responsive platform designed to showcase property listings, including apartments and lands, with detailed information such as size, price, and descriptions ... etc. Built with HTML, CSS, React, MySQL, Tailwind CSS and HeroUi.
 
 ## Key Features
 
