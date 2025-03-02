@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../assets/fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.logo_max {
+
+    width: 280px;
+}
+
+.swiper-pagination {
+
+    display: flex;
+    padding-left: 20px;
+}
+
+.swiper-pagination-bullet-active {
+
+    background-color: white !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+
+    color: #00A36C !important;
+}
+
+.swiper-button-disabled {
+
+    background-color: white !important;
+    color: #00A36C !important;
+    cursor: not-allowed;
+}
+
+.w-custom {
+    width: calc(100% - 260px);
+}
+
+.select__control--is-focused {
+
+    border-color: rgb(0, 163, 108) !important;
+}
+
+.navActive {
+
+    color: rgb(0, 163, 108) !important;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2) inset
+        ,-1px -1px 1px rgba(0, 163, 108 ,0.4) inset;
+}
+
+.navLink:hover {
+
+    transition: all .5s ease;
+    color: rgb(0, 163, 108) !important;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2) inset
+        ,-1px -1px 1px rgba(0, 163, 108 ,0.4) inset;
+}
+
+.themeIcons {
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2) inset
+        ,-1px -1px 1px rgba(0, 163, 108 ,0.4) inset;
+}
+
+.secHead {
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.secHead::before ,
+.secHead::after {
+
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+    --tw-gradient-to: rgb(0 163 108 / 0)  var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), #00A36C var(--tw-gradient-via-position), var(--tw-gradient-to);
+    --tw-gradient-from: #808000 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(128 128 0 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #008080 var(--tw-gradient-to-position);
+}
+
+.secHead::before {
+
+    left: -120px;
+    top: 50%;
+}
+
+.secHead::after {
+
+    right: -120px;
+    top: 50%;
+}
+
